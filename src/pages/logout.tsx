@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 import { useEffect } from "react";
-import { useLiff } from "~/liffContext";
+import { useLiff } from "~/LiffContext";
 
 const Logout: NextPage = () => {
   const { liff } = useLiff();
